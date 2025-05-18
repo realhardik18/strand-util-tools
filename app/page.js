@@ -15,9 +15,9 @@ export default function Home() {
             </button>
           </Link>
           
-          <Link href={"/screenshot-generator"}>
+          <Link href={"/clip-maker-2"}>
             <button className="w-64 h-32 bg-black text-white text-xl font-semibold rounded-lg shadow-lg hover:bg-gray-800 transition-all duration-300 transform hover:-translate-y-1">              
-              Screenshot Generator
+              Clip Maker 2
             </button>
           </Link>
         </div>

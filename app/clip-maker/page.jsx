@@ -36,8 +36,8 @@ export default function Clips() {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    image_1: image2,  // Now sending complete data URL
-                    image_2: image1   // Now sending complete data URL
+                    image_1: image1,  // Send as JSON, not just base64
+                    image_2: image2   // Send as JSON, not just base64
                 })
             });
 
